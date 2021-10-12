@@ -4,7 +4,7 @@ This website is designed and developed fo KALAM YOUTH LEADERSHIP CONFRENSE.
 
 Kalam Youth Leadership Conference is an international conference organized by Khwab Foundation annually. The aim of KYLC is to educate and inspire our upcoming generation.
 
-## Screenshots
+## Screenshot
 
 ![App Screenshot](https://github.com/geekblower/kylc/blob/main/Assets/IMG/screenshot.png)
 
