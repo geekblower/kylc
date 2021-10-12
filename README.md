@@ -6,7 +6,7 @@ Kalam Youth Leadership Conference is an international conference organized by Kh
 
 ## Screenshots
 
-![App Screenshot](https://github.com/geekblower/kylc/blob/main/Assets/IMG/screenshot.jpeg)
+![App Screenshot](https://github.com/geekblower/kylc/blob/main/Assets/IMG/screenshot.png)
 
 # Hi, I'm Geekblower! 👋
 
