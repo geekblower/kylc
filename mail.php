@@ -1,0 +1,110 @@
+<?php
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
+
+$mailheader = "From:".$name."<".$email.">\r\n";
+
+$recipient = "geekblower@yahoo.com";
+
+mail($recipient, $subject, $message, $mailheader);
+or die("Error!");
+
+echo'
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Kalam Youth Leadership Conference - An International Conference for Youth Empowerment</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="Assets/IMG/favicon.png" type="image/x-icon">
+
+    <!--Local CSS Files-->
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+    <!--CSS CDNs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+
+    <!-----------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------
+
+        * Template Name: Kalam Youth Leadership Conference
+        * Template URL: https://geekblower.github.io/kylc/
+        * Author: https://geekblower.github.io/
+
+    -------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------->
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h2>KALAM YOUTH LEADERSHIP CONFRENCE</h2>
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= 404 ======= -->
+    <section id="text-404">
+        <h1>That page doesn't exist!</h1>
+        <h4>Sorry, the page you were looking for could not be found</h4>
+        <h5>You can return to our <strong><a href="index.html">home page</a></strong>, or <strong><a
+                    href="index.html#contact">contact us</a></strong>
+            if you can't find what you are looking for</h5>
+    </section><!-- End 404 -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="fixed-bottom">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright 2021 <strong><span>KYLC</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed & Developed by <a href="https://geekblower.github.io/">Geekblower</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!--Local JS Files-->
+    <script src="Assets/JS/script.js"></script>
+
+    <!--JS CDNs-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+</body>
+
+</html>
+
+';
+
+
+?>
