@@ -13,9 +13,6 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="Assets/IMG/favicon.png" type="image/x-icon">
 
-  <!--Local CSS Files-->
-  <link rel="stylesheet" href="Assets/CSS/style.css">
-
   <!--CSS CDNs-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,6 +25,9 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+
+  <!--Local CSS Files-->
+  <link rel="stylesheet" href="Assets/CSS/style.css">
 
 
   <!-----------------------------------------------------------------------------------
@@ -58,16 +58,17 @@
           <li><a class="nav-link scrollto" href="#about">About Us</a></li>
           <li class="dropdown"><a href="#events"><span>KYLC 4.0</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">KYLC 3.0</a></li>
-              <li><a href="#">KYLC 2.0</a></li>
-              <li><a href="#">KYLC 1.0</a></li>
+              <li><a href="#events">KYLC 3.0</a></li>
+              <li><a href="#events">KYLC 2.0</a></li>
+              <li><a href="#events">KYLC 1.0</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#cta">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav>
+      <!--End navbar -->
 
     </div>
   </header><!-- End Header -->
@@ -86,7 +87,7 @@
 
       <div class="row">
         <div class="col-lg-6">
-          <img src="Assets/IMG/about-circle.png" class="img-fluid" alt="">
+          <img src="Assets/IMG/about-bg.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0">
           <h3>International Conference to Empower Youth</h3>
@@ -327,7 +328,8 @@
 
         <p>Please give you feedback about KYLC. It really motivates us to work harder and improve our mistakes. If you
           have any question ask here without any hesitation, we will love to answer you as soon as possible</p>
-        <a class="cta-btn" href="https://forms.gle/JLZEFSsexSo8p8vj7" target="_blank">Leave a Message</a>
+        <a href="https://forms.gle/JLZEFSsexSo8p8vj7" target="_blank"><button class="my-btn">Leave a
+            Message</button></a>
       </div>
 
     </div>
@@ -349,11 +351,15 @@
                 <strong>Email:</strong> khwab2020@gmail.com<br>
               </p>
               <div class="social-links mt-3">
-                <a href="https://twitter.com/geekblower/" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://facebook.com/geekblower/" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://khwabfoundation.org/" class="linkedin"><i class="bx bx-globe"></i></a>
-                <a href="https://instagram.com/geekblower/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="https://linkedin.com/in/geekblower/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.twitter.com/khwabfoundation/" class="twitter" target="_blank"><i
+                    class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/khwabfoundation/" class="facebook" target="_blank"><i
+                    class="bx bxl-facebook"></i></a>
+                <a href="https://www.khwabfoundation.org/" class="globe" target="_blank"><i class="bx bx-globe"></i></a>
+                <a href="https://www.instagram.com/khwab_foundation2020/" class="instagram" target="_blank"><i
+                    class="bx bxl-instagram"></i></a>
+                <a href="https://www.youtube.com/user/smallaimiscrime/" class="youtube" target="_blank"><i
+                    class="bx bxl-youtube"></i></a>
               </div>
             </div>
           </div>
@@ -380,15 +386,20 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Subscribe to our Newsletter for monthly updates related to KYLC & Khwab Foundation</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe" class="">
             </form>
+          </div> -->
 
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Us</h4>
+            <p>Checkout this if you want to join <strong>Khwab Foundation</strong> as a member and contribute to our
+              society. Click below and fill out the application form for furthur processes. Thankyou!</p>
+            <a href="404.html"><button class="my-btn">Join Us</button></a>
           </div>
-
         </div>
       </div>
     </div>
@@ -410,6 +421,7 @@
   <script src="Assets/JS/script.js"></script>
 
   <!--JS CDNs-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
